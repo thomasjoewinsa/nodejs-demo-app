@@ -1,0 +1,20 @@
+
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Node.js app with automated CI/CD deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.1"
+  },
+  "license": "ISC",
+  "type": "commonjs"
+}
